@@ -1,0 +1,81 @@
+start the program
+display:welcome to Be Mobile services
+open file
+display:create user account first
+display:enter name
+accept name
+store name in file
+display:enter surname
+accept surname
+store surname in file
+display:enter number
+accept number
+store number in file
+display:enter id number
+accept id number
+store id number in file
+display:available airtime
+store airtime in file
+close file
+
+open character choice
+display: welcome to Be Mobile network
+display:M-make a call
+display:C-check my balance
+display:A-user account
+display:E-exit sub menu
+display:enter your choice
+accept choice
+
+switch choice
+
+case M: make a call
+
+open file 'call logs'
+time_t currenttime
+time(&currenttime)
+store current date in file
+store current time in file
+display:enter number
+accept number
+store number in file as dialled number
+display:connecting
+use math random for call duration
+display:call duration
+accept call duration
+store duration in file
+calculate cost of call
+display:call cost
+accept call cost
+store call cost in file
+calculate available airtime after call
+accept available time
+store available airtime as available airtime in file
+close file
+
+return to main menu
+
+case 'A': user account
+
+display:user name from file
+display:user surname from file
+display:user id number from file
+display:user mobile number from file
+
+return main menu
+
+case 'C':check my balance
+
+display:available balance from file
+
+return to main menu
+
+case 'E':exit sub menu
+
+display:system terminating
+
+close programme
+
+
+
+
